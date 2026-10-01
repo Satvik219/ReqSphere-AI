@@ -10,4 +10,7 @@ export const config = {
   corsOrigin: process.env.CORS_ORIGIN ?? 'http://localhost:5173',
   mock: process.env.USE_MOCK_SERVICES !== 'false',
   jwtSecret,
+  gcpProjectId: process.env.GCP_PROJECT_ID ?? '',
+  gcpLocation: process.env.GCP_LOCATION ?? '',
+  geminiModel: process.env.GEMINI_MODEL ?? 'gemini-2.5-flash',
 };
