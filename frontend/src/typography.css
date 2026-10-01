@@ -1,0 +1,22 @@
+.app{font-size:16px}
+.app nav a,.app .crumb,.app .button{font-size:14px}
+.app .workspace strong{font-size:15px}
+.app .workspace small,.app .sidebar-foot small{font-size:12px}
+.app .sidebar-foot strong{font-size:14px}
+.app .eyebrow{font-size:12px}
+.app .badge{font-size:12px}
+.app .small{font-size:13px!important}
+.app table{font-size:14px}
+
+.landing .eyebrow{font-size:12px}
+.landing .form{gap:20px}
+.landing .form h2{font-size:24px}
+.landing .form>div p{font-size:16px;line-height:1.5;color:#68766e}
+.landing .form label{font-size:16px;gap:9px}
+.landing .form input,.landing .form textarea,.landing .form select{font-size:16px;min-height:48px;padding:12px}
+.landing .form input::placeholder{font-size:15px;color:#78867f}
+.landing .form small{font-size:14px}
+.landing .form .button{font-size:15px;min-height:48px}
+.landing .form .auth-secondary{background:#fff;color:#1e2d29;border-color:#ced8d0}
+.landing .form>p{display:flex;align-items:center;flex-wrap:wrap;gap:8px;font-size:15px;color:#405148}
+.landing .form-error{font-size:14px}
