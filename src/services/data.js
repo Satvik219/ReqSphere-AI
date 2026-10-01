@@ -1,0 +1,3 @@
+import { projects } from '../mocks/projects'; import { requirements } from '../mocks/requirements'; import { evidence } from '../mocks/evidence'; import { conflicts,gaps,changes } from '../mocks/conflicts';
+const pause=v=>new Promise(r=>setTimeout(()=>r(v),350));
+export const projectService={list:()=>pause(projects),get:id=>pause(projects.find(x=>x.id===id)??projects[0])}; export const requirementService={list:()=>pause(requirements)}; export const evidenceService={list:()=>pause(evidence)}; export const intelligenceService={conflicts:()=>pause(conflicts),gaps:()=>pause(gaps),changes:()=>pause(changes)};

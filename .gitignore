@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.local
+backend/.env
+backend/data/
+backend/uploads/
+service-account.json
+credentials.json
+*.log

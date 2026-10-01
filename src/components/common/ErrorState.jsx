@@ -1,0 +1,1 @@
+export function ErrorState({ message = 'Unable to load this information.', retry }) { return <section className="card"><h2>{message}</h2><p>Please try again.</p><button className="button primary" onClick={retry}>Retry</button></section>; }
